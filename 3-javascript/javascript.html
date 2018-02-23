@@ -10,7 +10,7 @@
 
     <body>
     
-        <p id="text">Hello Workjjdfdfld!</p>
+        <p id="text">Hello World!</p>
         
         <button id="myButton">Change text</button>
         
@@ -21,6 +21,10 @@
         <p id="thirdParagraph"></p>
         
         <button id="thirdButton">Add text</button>
+
+        <p id="moreText">This is some text</p>
+
+        <button id="styleText">Style text</button>
          
         <script type="text/javascript">
             
@@ -39,12 +43,14 @@
             
                     document.getElementById("thirdParagraph").innerHTML = "Here is some text";
             }
-        </script>
-     
-        
-    
-    </body>
 
+            document.getElementById("styleText").onclick = function() {
+
+                document.getElementById("moreText").style.fontFamily = "Monospace";
+            }
+        </script>
+
+    </body>
 
 
 </html>
