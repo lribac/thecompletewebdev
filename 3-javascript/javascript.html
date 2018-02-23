@@ -5,64 +5,31 @@
     
     <title>Javascript...</title>
 
-        <style type="text/css">
 
-            #redcircle {
-
-                width: 200px;
-                height: 200px;
-                border-radius: 50%;
-                background-color: red;
-                float: left;
-            }
-
-            #bluecircle {
-
-                width: 200px;
-                height: 200px;
-                border-radius: 50%;
-                background-color: blue;
-                float:left;
-                margin-left: 60px;
-
-            }
-
-            #yellowcircle {
-
-                width: 200px;
-                height: 200px;
-                border-radius: 50%;
-                background-color: yellow;
-                float:left;
-                margin-left: 60px;
-
-            }
-        </style>
-   
     </head>
 
 
     <body>
     
-        <div id="redcircle"></div>
+        <input id="text" type="text">
 
-        <div id="bluecircle"></div>
+        <button id="changeText">Change text</button>
 
-        <div id="yellowcircle"></div>
+        <p id="someText">This is some text</p>
          
         <script type="text/javascript">
 
-            document.getElementById("redcircle").onclick = function() {
-                document.getElementById("redcircle").style.display = "none";
+            document.getElementById("changeText").onclick = function() {
+
+                var textEntered = "";
+
+                textEntered = document.getElementById("text").value;
+                document.getElementById("someText").innerHTML = textEntered;
             }
 
-            document.getElementById("bluecircle").onclick = function() {
-                document.getElementById("bluecircle").style.display = "none";
-            }
 
-            document.getElementById("yellowcircle").onclick = function() {
-                document.getElementById("yellowcircle").style.display = "none";
-            }
+
+
             
 
         </script>
