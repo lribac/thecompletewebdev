@@ -4,50 +4,67 @@
     <head>
     
     <title>Javascript...</title>
+
+        <style type="text/css">
+
+            #redcircle {
+
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                background-color: red;
+                float: left;
+            }
+
+            #bluecircle {
+
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                background-color: blue;
+                float:left;
+                margin-left: 60px;
+
+            }
+
+            #yellowcircle {
+
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                background-color: yellow;
+                float:left;
+                margin-left: 60px;
+
+            }
+        </style>
    
     </head>
 
 
     <body>
     
-        <p id="text">Hello World!</p>
-        
-        <button id="myButton">Change text</button>
-        
-        <p id="secondParagraph">Javascript is ... </p>
-        
-        <button id="secondButton">Change text</button>
-        
-        <p id="thirdParagraph"></p>
-        
-        <button id="thirdButton">Add text</button>
+        <div id="redcircle"></div>
 
-        <p id="moreText">This is some text</p>
+        <div id="bluecircle"></div>
 
-        <button id="styleText">Style text</button>
+        <div id="yellowcircle"></div>
          
         <script type="text/javascript">
-            
-            document.getElementById("myButton").onclick = function() {
-            
-                    document.getElementById("text").innerHTML = "Hello Lucia!"; 
-            }
-           
-            document.getElementById("secondButton").onclick = function() {
-            
-                    document.getElementById("secondParagraph").innerHTML = "I think " + document.getElementById("secondParagraph").innerHTML + "awesome!" ;
-                    
-            }
-            
-            document.getElementById("thirdButton").onclick = function() {
-            
-                    document.getElementById("thirdParagraph").innerHTML = "Here is some text";
+
+            document.getElementById("redcircle").onclick = function() {
+                document.getElementById("redcircle").style.display = "none";
             }
 
-            document.getElementById("styleText").onclick = function() {
-
-                document.getElementById("moreText").style.fontFamily = "Monospace";
+            document.getElementById("bluecircle").onclick = function() {
+                document.getElementById("bluecircle").style.display = "none";
             }
+
+            document.getElementById("yellowcircle").onclick = function() {
+                document.getElementById("yellowcircle").style.display = "none";
+            }
+            
+
         </script>
 
     </body>
