@@ -1,40 +1,29 @@
 <html>
 
+<head>
 
-    <head>
-    
-    <title>Javascript...</title>
+    <title>Javascript</title>
 
+</head>
 
-    </head>
+<body>
 
+<script type="text/javascript">
+    function addition(a, b, c, d) {
+        return(a + b + c + d);
+    }
 
-    <body>
-    
-        <input id="text" type="text">
+    w = 3;
+    x = 4;
+    y = 5;
+    z = 6;
 
-        <button id="changeText">Change text</button>
+    var total = addition(w, x, y, z);
 
-        <p id="someText">This is some text</p>
-         
-        <script type="text/javascript">
+    alert(total);
 
-            document.getElementById("changeText").onclick = function() {
+</script>
 
-                var textEntered = "";
-
-                textEntered = document.getElementById("text").value;
-                document.getElementById("someText").innerHTML = textEntered;
-            }
-
-
-
-
-            
-
-        </script>
-
-    </body>
-
+</body>
 
 </html>
