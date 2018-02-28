@@ -20,8 +20,8 @@
       <file leaf-file-name="javascript.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3-javascript/javascript.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="593">
+              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519319991815</updated>
       <workItem from="1519319993039" duration="751000" />
-      <workItem from="1519322398451" duration="7732000" />
+      <workItem from="1519322398451" duration="11098000" />
     </task>
     <task id="LOCAL-00001" summary="Added some new files">
       <created>1519323570051</created>
@@ -165,11 +165,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519409044375</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="average using function JS">
+      <created>1519744244989</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519744244989</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8483000" />
+    <option name="totallyTimeSpent" value="11849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -206,7 +213,8 @@
     <MESSAGE value="Added a styling button" />
     <MESSAGE value="dissapearing circles" />
     <MESSAGE value="JS variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS variables" />
+    <MESSAGE value="average using function JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="average using function JS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -252,8 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3-javascript/javascript.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="593">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
