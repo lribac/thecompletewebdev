@@ -46,12 +46,25 @@
     <script type="text/javascript">
 
         var start = new Date().getTime();
+        var bestTime  = 1000000;
+
+
+        appearAfterDelay();
+        document.getElementById("shape").onclick  = shapeCliked()
+
+        function appearAfterDelay() {
+
+            setTimeout(makeShapeAppear, Math.random() * 2000);
+
+        }
 
         function getRandomColor() {
+
             var letters = '0123456789ABCDEF';
             var color = '#';
+
             for (var i = 0; i < 6; i++) {
-                color += letters[Math.floor(Math.random() * 16)];
+                color += letters[ Math.floor( Math.random() * 16 ) ];
             }
 
             return color;
@@ -65,7 +78,7 @@
 
                 var width = (Math.random() * 200) + 100;
 
-                if (Math.random() > 0.5) {
+                if (Math.random() > 0.50) {
 
                     document.getElementById("shape").style.borderRadius = "50%";
 
@@ -89,15 +102,10 @@
                 start = new Date().getTime();
         }
 
-        function appearAfterDelay() {
 
-            setTimeout(makeShapeAppear, Math.random() * 2000);
+        // Actions for buttons
 
-        }
-
-        appearAfterDelay();
-
-        document.getElementById("shape").onclick = function () {
+        function shapeCliked() {
 
             document.getElementById("shape").style.display = "none";
 
@@ -105,7 +113,7 @@
 
             var timeTaken = (end - start) / 1000;
 
-            var bestTime = Math.min(timeTaken);
+            bestTime = Math.min(timeTaken, bestTime);
 
             document.getElementById("timeTaken").innerHTML = timeTaken + "s";
 
@@ -113,17 +121,10 @@
 
             document.getElementById("bestTime").innerHTML = bestTime;
 
-
         }
 
 
-
-
-
-
-
     </script>
-
 </body>
 
 </html>
