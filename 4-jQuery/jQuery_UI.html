@@ -14,11 +14,7 @@
 
     <style type="text/css">
 
-        #draggable {
-            width: 150px;
-            height: 150px;
-            padding: 0.5em;
-        }
+        #resizable { width: 150px; height: 150px; padding: 0.5em; border: 1px solid black; }
 
     </style>
 
@@ -26,9 +22,9 @@
 
 <body>
 
-        <div id="draggable">
+        <div id="resizable">
 
-        <p>Drag me around</p>
+
 
         </div>
 
@@ -36,7 +32,7 @@
         <script type="text/javascript">
                 $( function() {
 
-                    $( "#draggable" ).draggable();
+                    $( "#resizable" ).resizable();
 
                 } );
 

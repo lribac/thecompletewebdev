@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fb782b5-0b19-4f4b-b4d6-7b18a1113bd3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/4-jQuery/jQuery_UI.html" afterPath="$PROJECT_DIR$/4-jQuery/jQuery_UI.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="jQuery_UI.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/4-jQuery/jQuery_UI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="16" column="90" lean-forward="false" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -130,7 +131,7 @@
       <workItem from="1519322398451" duration="22621000" />
       <workItem from="1520289009370" duration="8000" />
       <workItem from="1520289060484" duration="4117000" />
-      <workItem from="1520375070327" duration="1230000" />
+      <workItem from="1520375070327" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="Added some new files">
       <created>1519323570051</created>
@@ -195,11 +196,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520377614029</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="creating a draggable box">
+      <created>1520380380299</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380380299</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28727000" />
+    <option name="totallyTimeSpent" value="28891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -241,7 +249,8 @@
     <MESSAGE value="fading In and Out text with Jquery" />
     <MESSAGE value="setting up a Sign In Form" />
     <MESSAGE value="inserting external files to make the Jquery tools work" />
-    <option name="LAST_COMMIT_MESSAGE" value="inserting external files to make the Jquery tools work" />
+    <MESSAGE value="creating a draggable box" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating a draggable box" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -331,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4-jQuery/jQuery_UI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="16" column="90" lean-forward="false" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
           <folding />
         </state>
       </provider>
