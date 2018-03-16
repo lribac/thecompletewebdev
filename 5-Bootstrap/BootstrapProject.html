@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+    <style>
+
+        body {
+
+            position: relative;
+            margin-bottom: 0;
+
+        }
+
+        #MyApp {
+
+            margin-top: 64px;
+
+        }
+
+        #jumbotron1 {
+
+            background-image: url(bg.photo.jpeg);
+            border-radius: 0;
+
+        }
+
+        .jumbotron {
+
+            text-align: center;
+
+
+        }
+
+        #yourEmail {
+
+            width: 350px;
+
+
+        }
+
+        #signUp {
+
+            display: inline-block;
+            text-align: center;
+
+        }
+
+        #at {
+
+            padding-top: 7px;
+            padding-right: 2px;
+            width: 40px;
+            height: 40px;
+            background-color: #ECEEEF;
+            border-bottom-left-radius: 10%;
+            border-top-left-radius: 10%;
+            border: 1px lightgrey solid;
+
+
+
+        }
+
+        #jumbotron2 {
+
+            background-color: white;
+            margin-top: -35px;
+
+        }
+
+        .card {
+
+            width: 300px;
+            height: 380px;
+            margin-top: -40px;
+
+        }
+
+        .cardText {
+
+            padding: 10px;
+
+        }
+
+        #jumbotron3 {
+
+            background-color: #00FFFF;
+            width: 100%;
+            height: 450px;
+            margin-top: 30px;
+            margin-bottom: -20px;
+
+        }
+
+        #downloadText {
+
+            margin-top: 85px;
+
+        }
+
+        #imageDownload {
+
+            width: 100px;
+            height: 50px;
+
+        }
+
+
+
+
+    </style>
+</head>
+
+
+<body data-spy="scroll" data-target="#navbar-example" data-offset="70">
+
+<div class="container">
+
+<nav class="navbar navbar-default bg-light fixed-top" id="navbar-example">
+
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item active">
+            <a class="nav-link navbar-brand active" href="#MyApp">MyApp</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Download">Download The App</a>
+        </li>
+    </ul>
+
+    <form class="form-inline pull-xs-right">
+        <input id="emailInputLabel" class="form-control" type="email" placeholder="Email">
+        <input id="passwordInputLable" class="form-control" type="password" placeholder="Password">
+        <button id="loginButton" onclick="loginButtonDidPress()" class="btn btn-success" type="submit">Login</button>
+    </form>
+</nav>
+
+
+</div>
+
+
+
+
+
+
+<h2 id="MyApp"></h2>
+
+<div>
+
+    <div id="jumbotron1" class="jumbotron">
+
+        <h1 class="display-3">My Awesome App!</h1>
+
+        <p class="lead">This is why YOU should download this fantastic app!</p>
+
+        <hr class="my-4">
+
+        <p>Want to know more? Join our mailing list!</p>
+
+        <p class="lead">
+
+        <form id="signUp" class="form-inline">
+
+            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+
+                <div id="at" class="input-group-addon"><i class="fas fa-at"></i></div>
+
+                <input type="text" class="form-control" id="yourEmail" placeholder="Your Email">
+
+            </div>
+
+            <button type="button" class="btn btn-primary my-2 my-sm-0">Send Email</button>
+
+        </form>
+
+        </p>
+
+    </div>
+
+</div>
+
+
+
+
+
+<h2 id="Home"></h2>
+
+<div id="jumbotron2" class="jumbotron jumbotron-fluid">
+
+    <div class="container">
+
+        <h1 class="display-6">Why this app is awesome</h1>
+
+        <p class="lead">Summary, once again, of your app's awesomeness</p>
+
+    </div>
+
+</div>
+
+
+
+
+
+<h2 id="About"></h2>
+
+<div class="container">
+
+
+<div class="row">
+
+    <div class="col-sm-4">
+        <div class="card card-block ">
+            <img class="card-img-top" src="https://americafamilylawcenter.org/wp-content/uploads/2017/12/huu8hu.jpg" alt="Card image cap">
+            <div class="card-block">
+                <div class="cardText">
+                <h4 class="card-title"><i class="fas fa-anchor"></i> Card title</h4>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="card card-block">
+            <img class="card-img-top" src="https://americafamilylawcenter.org/wp-content/uploads/2017/12/huu8hu.jpg" alt="Card image cap">
+            <div class="card-block">
+                <div class="cardText">
+                <h4 class="card-title"><i class="fas fa-bicycle"></i> Card title</h4>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <div class="card card-block">
+            <img class="card-img-top" src="https://americafamilylawcenter.org/wp-content/uploads/2017/12/huu8hu.jpg" alt="Card image cap">
+            <div class="card-block">
+                <div class="cardText">
+                <h4 class="card-title"><i class="fas fa-birthday-cake"></i> Card title</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<h2 id="Download"></h2>
+
+<div id="jumbotron3" class="jumbotron jumbotron-fluid">
+
+        <div class="container">
+
+            <h1 id="downloadText" class="display-7">Download the app!</h1>
+
+            <p class="lead">Really, why should I download this app??</p>
+
+            <a id="imageDownload" href="https://itunes.apple.com/us/app/apple-store/id375380948?mt=8"><img src="https://vignette.wikia.nocookie.net/call-of-mini-infinity/images/6/64/Ec6a786d_available-on-iphone-app-store-logo.png/revision/latest?cb=20150705143812"></a>
+
+        </div>
+
+</div>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+    function sendEmail() {
+        window.open('mailto:asdsa@gmail.com');
+    }
+
+    function loginButtonDidPress() {
+        alert($("#emailInputLabel").val())
+        alert($("#passwordInputLabel").val())
+    }
+
+</script>
+
+</body>
+
+</html>

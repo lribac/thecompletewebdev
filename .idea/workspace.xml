@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fb782b5-0b19-4f4b-b4d6-7b18a1113bd3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/4-jQuery/CodePlayer.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,18 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CodePlayer.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/4-jQuery/CodePlayer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="143" column="72" lean-forward="true" selection-start-line="143" selection-start-column="72" selection-end-line="143" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,10 +47,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="922" />
-    <option name="y" value="23" />
-    <option name="width" value="518" />
-    <option name="height" value="873" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,7 +117,9 @@
       <workItem from="1519322398451" duration="22621000" />
       <workItem from="1520289009370" duration="8000" />
       <workItem from="1520289060484" duration="4117000" />
-      <workItem from="1520375070327" duration="10843000" />
+      <workItem from="1520375070327" duration="11357000" />
+      <workItem from="1520868002304" duration="113000" />
+      <workItem from="1520868136192" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="Added some new files">
       <created>1519323570051</created>
@@ -217,20 +205,26 @@
       <option name="project" value="LOCAL" />
       <updated>1520384022192</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="creating a CodePlayer">
+      <created>1520650629422</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1520650629422</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38340000" />
+    <option name="totallyTimeSpent" value="39004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32134572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -266,7 +260,8 @@
     <MESSAGE value="creating a draggable box" />
     <MESSAGE value="creating a resizable box" />
     <MESSAGE value="creating a accordion" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating a accordion" />
+    <MESSAGE value="creating a CodePlayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating a CodePlayer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -277,7 +272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -285,7 +279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -338,19 +331,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3-javascript/4-jQuery/jQuery.html" />
-    <entry file="file://$PROJECT_DIR$/4-jQuery/jQueryUI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/4-jQuery/jQueryUI.html" />
     <entry file="file://$PROJECT_DIR$/4-jQuery/jQuery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2865">
           <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -358,15 +343,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/4-jQuery/CodePlayer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="143" column="72" lean-forward="true" selection-start-line="143" selection-start-column="72" selection-end-line="143" selection-end-column="72" />
-          <folding />
+        <state relative-caret-position="-2099">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
