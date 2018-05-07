@@ -19,11 +19,13 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/7-mysql/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            <state relative-caret-position="390">
+              <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
               <folding>
-                <marker date="1525632511000" expanded="true" signature="192:215" ph="SELECT * FRO... users" />
-                <marker date="1525632511000" expanded="true" signature="192:277" ph="SELECT * FRO... users" />
+                <marker date="1525713236000" expanded="true" signature="191:230" ph="INSERT INTO " />
+                <marker date="1525713236000" expanded="true" signature="191:277" ph="INSERT INTO sys.users... " />
+                <marker date="1525713236000" expanded="true" signature="330:353" ph="SELECT * FRO... users" />
+                <marker date="1525713236000" expanded="true" signature="330:415" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -175,7 +177,7 @@
       <workItem from="1520868002304" duration="113000" />
       <workItem from="1520868136192" duration="37000" />
       <workItem from="1525532960348" duration="2324000" />
-      <workItem from="1525543655629" duration="4505000" />
+      <workItem from="1525543655629" duration="6697000" />
     </task>
     <task id="LOCAL-00001" summary="Added some new files">
       <created>1519323570051</created>
@@ -282,11 +284,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525632114384</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="extracting and displaying information from a database">
+      <created>1525632743140</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1525632743140</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45833000" />
+    <option name="totallyTimeSpent" value="48025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -336,7 +345,8 @@
     <MESSAGE value="creating a CodePlayer" />
     <MESSAGE value="connecting to a database" />
     <MESSAGE value="fetching an array from a database" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetching an array from a database" />
+    <MESSAGE value="extracting and displaying information from a database" />
+    <option name="LAST_COMMIT_MESSAGE" value="extracting and displaying information from a database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -356,8 +366,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1525632511000" expanded="true" signature="192:215" ph="SELECT * FRO... users" />
-            <marker date="1525632511000" expanded="true" signature="192:277" ph="SELECT * FRO... users" />
+            <marker date="1525713236000" expanded="true" signature="191:230" ph="INSERT INTO " />
+            <marker date="1525713236000" expanded="true" signature="191:277" ph="INSERT INTO sys.users... " />
+            <marker date="1525713236000" expanded="true" signature="330:353" ph="SELECT * FRO... users" />
+            <marker date="1525713236000" expanded="true" signature="330:415" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -473,11 +485,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7-mysql/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="390">
+          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding>
-            <marker date="1525632511000" expanded="true" signature="192:215" ph="SELECT * FRO... users" />
-            <marker date="1525632511000" expanded="true" signature="192:277" ph="SELECT * FRO... users" />
+            <marker date="1525713236000" expanded="true" signature="191:230" ph="INSERT INTO " />
+            <marker date="1525713236000" expanded="true" signature="191:277" ph="INSERT INTO sys.users... " />
+            <marker date="1525713236000" expanded="true" signature="330:353" ph="SELECT * FRO... users" />
+            <marker date="1525713236000" expanded="true" signature="330:415" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
