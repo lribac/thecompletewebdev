@@ -76,10 +76,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-61" />
-    <option name="y" value="88" />
-    <option name="width" value="1131" />
-    <option name="height" value="641" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,7 +174,7 @@
       <workItem from="1520868002304" duration="113000" />
       <workItem from="1520868136192" duration="37000" />
       <workItem from="1525532960348" duration="2324000" />
-      <workItem from="1525543655629" duration="8163000" />
+      <workItem from="1525543655629" duration="8374000" />
     </task>
     <task id="LOCAL-00001" summary="Added some new files">
       <created>1519323570051</created>
@@ -304,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525715383072</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="updating data into a database">
+      <created>1526236222810</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1526236222810</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49491000" />
+    <option name="totallyTimeSpent" value="49702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
